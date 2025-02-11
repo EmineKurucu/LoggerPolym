@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
-public class DatabaseLogger {
+public class DatabaseLogger extends BaseLogger{
+    public void log(String mesaj){
+        System.out.println("Logged to databse");
+    }
 }

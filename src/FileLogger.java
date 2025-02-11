@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
-public class FileLogger {
+public class FileLogger extends BaseLogger{
+    public void log(String mesaj){
+        System.out.println("Logged to file");
+    }
 }
